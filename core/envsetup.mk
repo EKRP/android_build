@@ -35,6 +35,7 @@ PREV_VERSIONS :=
 
 # EKRP
 EKRP_VERSION := 1.0
+EKRP_TYPE := COMMUNITY
 
 # Filters ALL_VERSIONS down to the range [$1, $2], and errors if $1 > $2 or $3 is
 # not in [$1, $2]
