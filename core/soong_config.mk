@@ -15,7 +15,7 @@ endif
 
 include $(BUILD_SYSTEM)/dex_preopt_config.mk
 
-include vendor/twrp/soong/makevars.mk
+include vendor/eureka/soong/makevars.mk
 
 ifeq ($(WRITE_SOONG_VARIABLES),true)
 

@@ -33,6 +33,9 @@ ALL_VERSIONS := Q R S T U V W X Y Z
 ALL_VERSIONS := $(PREV_VERSIONS) $(foreach v,$(ALL_VERSIONS),$(call version-list,$(v)))
 PREV_VERSIONS :=
 
+# EKRP
+EKRP_VERSION := 1.0
+
 # Filters ALL_VERSIONS down to the range [$1, $2], and errors if $1 > $2 or $3 is
 # not in [$1, $2]
 # $(1): min platform version

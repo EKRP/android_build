@@ -2337,6 +2337,10 @@ endif # BUILDING_RECOVERY_IMAGE
 
 .PHONY: recoveryimage
 recoveryimage: $(INSTALLED_RECOVERYIMAGE_TARGET) $(RECOVERY_RESOURCE_ZIP)
+# --------------------------------------------------------
+# Eureka vendor-script 
+#
+	bash vendor/eureka/eureka.sh
 
 ifneq ($(BOARD_NAND_PAGE_SIZE),)
 $(error MTD device is no longer supported and thus BOARD_NAND_PAGE_SIZE is deprecated.)
